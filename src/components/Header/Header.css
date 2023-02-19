@@ -1,0 +1,274 @@
+.custom-shape-divider-bottom-1673671527 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1673671527 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 98px;
+}
+
+.custom-shape-divider-bottom-1673671527 .shape-fill {
+    fill: #d5def1;
+}
+.header-section{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    position: relative;
+}
+.header{
+    position: relative;
+    top:14rem;    
+}
+.header-row{
+    justify-content:center;
+}
+.my-info{
+    color: white;
+}
+.my-info h1{
+    text-transform: capitalize;
+}
+.letter-span{
+    font-family: 'Unbounded', cursive;
+    font-size: 3rem;
+    position: relative;
+    transform: scale(0.5);
+    top:-0.1rem;
+    animation-name: grow;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.letter-span:nth-child(1){
+    animation-delay: 0.1s;
+}
+.letter-span:nth-child(2){
+    animation-delay: 0.3s;
+}
+.letter-span:nth-child(3){
+    animation-delay: 0.5s;
+}
+.letter-span:nth-child(4){
+    animation-delay: 0.7s;
+}
+.letter-span:nth-child(5){
+    animation-delay: 0.9s;
+}
+.letter-span:nth-child(6){
+    animation-delay: 1.1s;
+}
+.letter-span:nth-child(7){
+    animation-delay: 1.3s;
+}
+@keyframes grow{
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.logo{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 0px rgb(41, 41, 41);
+}
+.logo-img{
+    width:40px;
+    height: 40px;
+}
+.html{
+    left:-3rem;
+    top:3rem;
+}
+.css{
+    left:-1rem;
+    top:-1rem;
+}
+.bootstrap{
+    left:3rem;
+    top:-4rem;
+}
+.js{
+    left:8rem;
+    top:-4.5rem;
+}
+.react{
+    left:13rem;
+    top:-3rem;
+}
+.mongo{
+    left:16rem;
+    top:1rem;
+}
+.node{
+    left:18rem;
+    top:5rem;
+}
+.header-col p{
+    position: relative;
+    top:1rem;
+    font-family: 'Condiment', cursive;
+    font-size: 1.5rem;
+}
+.header-col h4{
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.profile-image{
+    width:300px;
+    height: 300px;
+    position: relative;
+}
+.common-button{
+    width:200px;
+    height: 46px;
+    margin-top: 1rem;
+    background-color: #000000;
+    color:white;
+    border-radius: 30px;
+    border:none;
+}
+.common-button-light{
+    width:200px;
+    height: 46px;
+    margin-top: 1rem;
+    background-color: transparent;
+    color:black;
+    border-radius: 30px;
+    border:2px solid black;
+}
+@media(max-width:1200px){
+    .header-col h1{
+        font-weight: 800;
+        font-size: 2rem;
+    }
+    .letter-span{
+        font-weight: 800;
+        font-size: 2rem;
+    }
+}
+@media(max-width:992px){
+    .header-section{
+        height: 600px;
+    }
+    .header-row{
+        justify-content:space-around;
+    }
+    .header-col h4{
+        font-size: 1rem;
+    }
+    .profile-image{
+        width: 260px;
+        height: 260px;
+    }
+    .react{
+        left:12rem;
+        top:-2rem;
+    }
+    .mongo{
+        left:14.5rem;
+        top:1.5rem;
+    }
+    .node{
+        left:15.9rem;
+        top:5.5rem;
+    }
+}
+@media(max-width:767px){
+    .header-section{
+        height: 820px;
+    }
+    .header-row{
+        flex-direction: column-reverse;
+    }
+    .my-info{
+        text-align: center;
+    }
+    .header-col h1{
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    .letter-span{
+        font-weight: 800;
+        font-size: 3rem;
+    }
+}
+@media(max-width:576px){
+    .header-section{
+        height: 800px;
+    }
+    .header-col h1{
+        font-weight: 500;
+        font-size: 1.9rem;
+    }
+    .letter-span{
+        font-weight: 500;
+        font-size: 1.9rem;
+    }
+    .header-col h4{
+        font-size: 1rem;
+    }
+    .my-info{
+        padding: 1rem;
+    }
+}
+@media(max-width:380px){
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .logo-img{
+        width:30px;
+        height: 30px;
+    }
+    .html{
+        left:-2rem;
+        top:2rem;
+    }
+    .css{
+        left:0rem;
+        top:-1rem;
+    }
+    .bootstrap{
+        left:3rem;
+        top:-3rem;
+    }
+    .js{
+        left:6.5rem;
+        top:-4rem;
+    }
+    .react{
+        left:10rem;
+        top:-3rem;
+    }
+    .mongo{
+        left:13rem;
+        top:-1rem;
+    }
+    .node{
+        left:15rem;
+        top:2rem;
+    }
+}
+@media(max-width:360px){
+    .header-col h1{
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+}

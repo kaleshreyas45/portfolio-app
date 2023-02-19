@@ -1,0 +1,15 @@
+.list{
+    position: relative;
+    top:-16px;
+    left:1px;
+}
+.list::marker{
+    color: #4b6cb7;
+    font-size: 3rem;
+}
+.list .year{
+    position: relative;
+    top:-0.5rem;
+    color: grey;
+}
+

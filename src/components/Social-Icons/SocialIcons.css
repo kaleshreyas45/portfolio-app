@@ -1,0 +1,25 @@
+.social-icons-fixed{
+    position: fixed;
+    top:40%;
+    left:15px;
+    z-index: 100;
+    width: 30px;
+}
+.social-icons-fixed a{
+    text-decoration: none;
+}
+.icon-shape{
+    width: 40px;
+    height: 40px;
+    margin-top: 0.5rem;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+}
+@media(max-width:767px){
+    .social-icons-fixed{
+        top:72%;
+        left:90%;
+    }
+}

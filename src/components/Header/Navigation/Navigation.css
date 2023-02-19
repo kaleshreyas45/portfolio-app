@@ -1,0 +1,114 @@
+.mobile-menu{
+    position: fixed;
+    z-index: 200;
+    top:0;
+    left:0;
+    width:300px;
+    height: 100vh;
+    background-color: #ffffff;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.open{
+    transform: translateX(-100%);
+    animation-name: slide-x;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.close{
+    transform: translateX(0);
+    animation-name: slide-right-x;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.active{
+    background-color: aliceblue;
+}
+@keyframes slide-x{
+    0%{
+        transform:  translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+@keyframes slide-right-x{
+    0%{
+        transform:  translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.x{
+    position: absolute;
+    top:20px;
+    right: 50px;
+    color:#232924;
+    font-weight: 800;
+    font-size: 2rem;
+    z-index: 1;
+    cursor: pointer;
+}
+.top-bar{
+    height: 30px;
+    background-color: #4969b3;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    width: 100%;
+}
+.mail-phone{
+    color: white;
+    font-size: 0.8rem; 
+}
+.navigation-bar{
+    height: 76px;
+    background-color: #ffffff;
+    position: fixed;
+    top:30px;
+    left: 0;
+    z-index: 100;
+}
+.brand{
+    font-family: 'Condiment', cursive;
+    text-transform: capitalize;
+}
+.navLinks a{
+    text-decoration: none;
+    color:black;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.mobile-links a{
+    text-decoration: none;
+    color:black;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.hamburger{
+    display: none;    
+}
+.hamburger .lines{
+    width:40px;
+    height: 5px;
+    margin-top: 0.3rem;
+    background-color: #4969b3;
+    border-radius: 20px;
+}
+@media(max-width:768px){
+    .navLinks{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}

@@ -1,0 +1,21 @@
+
+.about-col{
+    position: relative;
+}
+.text{
+    width:60%;
+    margin-left:auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+@media(max-width:992px){
+    .text{
+        width: 85%;
+    }
+}
+@media(max-width:767px){
+    .for-experience{
+        margin-top: 2rem;
+    }
+}
