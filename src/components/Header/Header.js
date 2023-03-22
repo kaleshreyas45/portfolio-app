@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="row header-row d-flex ">
                     <div className="col-md-5 header-col d-flex justify-content-center">
                         <div className="my-info">
-                            <p>Hi,</p>
+                            <p>Hi, 👋</p>
                             <div className="d-flex align-items-center">
                                 <h1>I am</h1>
                                 &nbsp;&nbsp;

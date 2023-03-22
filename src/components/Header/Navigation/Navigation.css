@@ -93,6 +93,7 @@
     color:black;
     margin-top: 2rem;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .hamburger{
     display: none;    
@@ -110,5 +111,6 @@
     }
     .hamburger{
         display: block;
+        cursor: pointer;
     }
 }
