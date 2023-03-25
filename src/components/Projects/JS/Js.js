@@ -3,6 +3,7 @@ import Box from '../Box'
 import distanceConverter from '../../../assets/distance-converter.png'
 import todoapp from '../../../assets/todoapp.png'
 import profileCard from '../../../assets/profile-card.png'
+import clock from '../../../assets/clock.png'
 
 const Js = () => {
     const JsProjects = [
@@ -23,6 +24,12 @@ const Js = () => {
             content: "This is To Do project. I know it is very common😂 but if you want to practice click events, getting values from input field, search functionality in js, localStorage api,etc then you must create this! ",
             image: todoapp,
             url:"https://kaleshreyas45.github.io/to-do-list/"
+        },
+        {
+            title: "Clock Functionality",
+            content: "This will not set the time/alarm in your device but here you can observe how hours/minutes hand's position is changing by clicking on the numbers also how clock is changing according to minutes or hours. I created this without using simple image!",
+            image: clock,
+            url:"https://kaleshreyas45.github.io/set-time/"
         },
         
     ]
