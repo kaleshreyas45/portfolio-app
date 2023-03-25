@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.141ca629.css",
-    "main.js": "/portfolio-app/static/js/main.56fcf2fc.js",
+    "main.js": "/portfolio-app/static/js/main.0151a9ef.js",
     "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
     "static/media/profile-card.png": "/portfolio-app/static/media/profile-card.8703a16fa2fea2399498.png",
     "static/media/localGym.png": "/portfolio-app/static/media/localGym.50472ee2f62701036a3d.png",
@@ -10,6 +10,7 @@
     "static/media/Profile.png": "/portfolio-app/static/media/Profile.e92790d807d5208b9245.png",
     "static/media/google.png": "/portfolio-app/static/media/google.951cf676c1cff2e206fa.png",
     "static/media/netflix.png": "/portfolio-app/static/media/netflix.37c501e6a72d689238ac.png",
+    "static/media/clock.png": "/portfolio-app/static/media/clock.cd1f9744ec51322bcb63.png",
     "static/media/jioSaavan.png": "/portfolio-app/static/media/jioSaavan.79ae7fbe9f0f078eae59.png",
     "static/media/distance-converter.png": "/portfolio-app/static/media/distance-converter.1367b00a780975b473d8.png",
     "static/media/quotesGenerator.png": "/portfolio-app/static/media/quotesGenerator.e9c90c5d2bfb4d41c11e.png",
@@ -17,11 +18,11 @@
     "static/media/react.png": "/portfolio-app/static/media/react.a735267992861f02c8f2.png",
     "index.html": "/portfolio-app/index.html",
     "main.141ca629.css.map": "/portfolio-app/static/css/main.141ca629.css.map",
-    "main.56fcf2fc.js.map": "/portfolio-app/static/js/main.56fcf2fc.js.map",
+    "main.0151a9ef.js.map": "/portfolio-app/static/js/main.0151a9ef.js.map",
     "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.141ca629.css",
-    "static/js/main.56fcf2fc.js"
+    "static/js/main.0151a9ef.js"
   ]
 }
