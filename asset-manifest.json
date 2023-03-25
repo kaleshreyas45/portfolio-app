@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.c3c568a0.css",
-    "main.js": "/portfolio-app/static/js/main.189f27b1.js",
+    "main.css": "/portfolio-app/static/css/main.141ca629.css",
+    "main.js": "/portfolio-app/static/js/main.b7730d4b.js",
     "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
-    "static/media/localGym.png": "/portfolio-app/static/media/localGym.dacf6a7d4275144c25f6.png",
-    "static/media/todoapp.png": "/portfolio-app/static/media/todoapp.22424dcd014a417019f1.png",
+    "static/media/localGym.png": "/portfolio-app/static/media/localGym.50472ee2f62701036a3d.png",
+    "static/media/miniCart.png": "/portfolio-app/static/media/miniCart.f1d58bc61559487db82f.png",
+    "static/media/todoapp.png": "/portfolio-app/static/media/todoapp.ca82e053d78f988a5a31.png",
     "static/media/Profile.png": "/portfolio-app/static/media/Profile.e92790d807d5208b9245.png",
-    "static/media/distance-converter.png": "/portfolio-app/static/media/distance-converter.203553f1c954e623e577.png",
-    "static/media/quotesGenerator.png": "/portfolio-app/static/media/quotesGenerator.f1249d5dab9821694c47.png",
-    "static/media/miniCart.png": "/portfolio-app/static/media/miniCart.3bc8c0e52fdb77275f60.png",
-    "static/media/calculator.png": "/portfolio-app/static/media/calculator.5362662dd36c8184d533.png",
-    "static/media/jioSaavan.png": "/portfolio-app/static/media/jioSaavan.b31f92f55a5ffb7fd9e1.png",
-    "static/media/netflix.png": "/portfolio-app/static/media/netflix.22ff0486ccf238b099ef.png",
-    "static/media/google.png": "/portfolio-app/static/media/google.6b4fc2072278305bee33.png",
+    "static/media/google.png": "/portfolio-app/static/media/google.951cf676c1cff2e206fa.png",
+    "static/media/netflix.png": "/portfolio-app/static/media/netflix.37c501e6a72d689238ac.png",
+    "static/media/jioSaavan.png": "/portfolio-app/static/media/jioSaavan.79ae7fbe9f0f078eae59.png",
+    "static/media/distance-converter.png": "/portfolio-app/static/media/distance-converter.1367b00a780975b473d8.png",
+    "static/media/quotesGenerator.png": "/portfolio-app/static/media/quotesGenerator.e9c90c5d2bfb4d41c11e.png",
     "static/media/c.png": "/portfolio-app/static/media/c.03589f45a07032f0be45.png",
     "static/media/react.png": "/portfolio-app/static/media/react.a735267992861f02c8f2.png",
     "index.html": "/portfolio-app/index.html",
-    "main.c3c568a0.css.map": "/portfolio-app/static/css/main.c3c568a0.css.map",
-    "main.189f27b1.js.map": "/portfolio-app/static/js/main.189f27b1.js.map",
+    "main.141ca629.css.map": "/portfolio-app/static/css/main.141ca629.css.map",
+    "main.b7730d4b.js.map": "/portfolio-app/static/js/main.b7730d4b.js.map",
     "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3c568a0.css",
-    "static/js/main.189f27b1.js"
+    "static/css/main.141ca629.css",
+    "static/js/main.b7730d4b.js"
   ]
 }
