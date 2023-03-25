@@ -1,15 +1,12 @@
 .list{
-    position: relative;
-    top:-16px;
-    left:1px;
+    margin-top: 10px;
+    list-style: none;
 }
-.list::marker{
-    color: #4b6cb7;
-    font-size: 47px;
+.extra-margin{
+    list-style: none;
+    margin-top: 20px;
 }
 .list .year{
-    position: relative;
-    top:-0.5rem;
     color: grey;
 }
 

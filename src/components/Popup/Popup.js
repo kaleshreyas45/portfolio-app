@@ -14,17 +14,14 @@ const Popup = (props) => {
         return (
             <div className="backdrop">
                 <div className="popup">
-                    <div className="underline"></div>
                     <div className="x" onClick={closePopup}>X</div>
                     <div className="d-flex" style={{ 'position': 'relative' }}>
                         {props.education ? <><h4 style={{ 'position': 'absolute' }}>Education <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon></h4>
                             <div className="d-flex" style={{ 'marginTop': '3rem' }}>
-                                <Line></Line>
                                 <Education></Education>
                             </div></> : ""}
-                        {props.experience ? <><h4 style={{ 'position': 'absolute' }}>Experience <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon></h4>
+                        {props.experience ? <><h4 style={{ 'position': 'absolute'}}>Experience <FontAwesomeIcon icon={faLaptop}></FontAwesomeIcon></h4>
                             <div className="d-flex" style={{ 'marginTop': '3rem' }}>
-                                <Line></Line>
                                 <Experience></Experience>
                             </div></> : ""}
 

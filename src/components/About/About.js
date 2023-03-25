@@ -8,12 +8,10 @@ const About = () => {
     const showEducation = () =>{
         setEducation(true)
         setExperience(false)
-        document.body.style.overflow = "hidden"
     }
     const showExperience = () =>{
         setExperience(true)
         setEducation(false)
-        document.body.style.overflow = "hidden"
     }
     const removePopup = () =>{
         setExperience(false);

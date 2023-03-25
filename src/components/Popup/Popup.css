@@ -12,12 +12,15 @@
 
 .popup{
     width: 500px;
-    height: 80vh;
+    height: 600px;
     background-color: white;
-    margin-top: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
     padding: 2rem;
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px -3px rgba(38,38,38,1);
 }
 @media(max-width:576px){
     .popup{
