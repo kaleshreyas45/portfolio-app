@@ -2,7 +2,6 @@ import React from 'react'
 import Box from '../Box'
 import distanceConverter from '../../../assets/distance-converter.png'
 import todoapp from '../../../assets/todoapp.png'
-import calculator from '../../../assets/calculator.png'
 
 const Js = () => {
     const JsProjects = [
@@ -17,12 +16,6 @@ const Js = () => {
             content: "This is To Do project. I know it is very common😂 but if you want to practice click events, getting values from input field, search functionality in js, localStorage api,etc then you must create this ",
             image: todoapp,
             url:"https://kaleshreyas45.github.io/to-do-list/"
-        },
-        {
-            title: "Calculator",
-            content: "This is basic calculator with basic operations and clear functionality! Let's test it! If you find any bug then let me know!",
-            image: calculator,
-            url:"https://kaleshreyas45.github.io/Calculator/"
         }
     ]
     return (
