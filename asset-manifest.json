@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.8bf175f0.css",
-    "main.js": "/portfolio-app/static/js/main.8fd06e15.js",
+    "main.css": "/portfolio-app/static/css/main.c3c568a0.css",
+    "main.js": "/portfolio-app/static/js/main.189f27b1.js",
     "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
-    "static/media/localGym.png": "/portfolio-app/static/media/localGym.600c0748bfc2e4d5f376.png",
-    "static/media/miniCart.png": "/portfolio-app/static/media/miniCart.e3fa8c8c150e8b99a0b0.png",
-    "static/media/todoapp.png": "/portfolio-app/static/media/todoapp.22c83a2ebde6541cd164.png",
+    "static/media/localGym.png": "/portfolio-app/static/media/localGym.dacf6a7d4275144c25f6.png",
+    "static/media/todoapp.png": "/portfolio-app/static/media/todoapp.22424dcd014a417019f1.png",
     "static/media/Profile.png": "/portfolio-app/static/media/Profile.e92790d807d5208b9245.png",
     "static/media/distance-converter.png": "/portfolio-app/static/media/distance-converter.203553f1c954e623e577.png",
-    "static/media/netflix.png": "/portfolio-app/static/media/netflix.bdb26afac57a670a6819.png",
     "static/media/quotesGenerator.png": "/portfolio-app/static/media/quotesGenerator.f1249d5dab9821694c47.png",
+    "static/media/miniCart.png": "/portfolio-app/static/media/miniCart.3bc8c0e52fdb77275f60.png",
     "static/media/calculator.png": "/portfolio-app/static/media/calculator.5362662dd36c8184d533.png",
     "static/media/jioSaavan.png": "/portfolio-app/static/media/jioSaavan.b31f92f55a5ffb7fd9e1.png",
+    "static/media/netflix.png": "/portfolio-app/static/media/netflix.22ff0486ccf238b099ef.png",
     "static/media/google.png": "/portfolio-app/static/media/google.6b4fc2072278305bee33.png",
     "static/media/c.png": "/portfolio-app/static/media/c.03589f45a07032f0be45.png",
     "static/media/react.png": "/portfolio-app/static/media/react.a735267992861f02c8f2.png",
     "index.html": "/portfolio-app/index.html",
-    "main.8bf175f0.css.map": "/portfolio-app/static/css/main.8bf175f0.css.map",
-    "main.8fd06e15.js.map": "/portfolio-app/static/js/main.8fd06e15.js.map",
+    "main.c3c568a0.css.map": "/portfolio-app/static/css/main.c3c568a0.css.map",
+    "main.189f27b1.js.map": "/portfolio-app/static/js/main.189f27b1.js.map",
     "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf175f0.css",
-    "static/js/main.8fd06e15.js"
+    "static/css/main.c3c568a0.css",
+    "static/js/main.189f27b1.js"
   ]
 }
