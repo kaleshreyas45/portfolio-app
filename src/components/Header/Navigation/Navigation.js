@@ -5,7 +5,6 @@ import './Navigation.css'
 const Navigation = () => {
     const [mobileMenu, setMobileMenu] = useState(false)
     const [close, setClose] = useState(false)
-
     const showMobileMenu = () => {
         setMobileMenu(true);
         document.body.style.height = "100vh"; 
@@ -20,12 +19,15 @@ const Navigation = () => {
         document.body.style.overflowY = "scroll";
     }
     const hideID = function (id) {
-        setMobileMenu(false)
+        setTimeout(() => {
+            setMobileMenu(false)
+        }, 500);
         setClose(true)
         const element = document.getElementById(id)
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' })
         }
+        document.body.style.overflowY = "scroll";
     }
     const hideDesktopID = function (id) {
         const element = document.getElementById(id)
