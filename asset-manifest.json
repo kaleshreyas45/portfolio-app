@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.141ca629.css",
-    "main.js": "/portfolio-app/static/js/main.0151a9ef.js",
+    "main.css": "/portfolio-app/static/css/main.4112529a.css",
+    "main.js": "/portfolio-app/static/js/main.fab40354.js",
     "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
     "static/media/profile-card.png": "/portfolio-app/static/media/profile-card.8703a16fa2fea2399498.png",
     "static/media/localGym.png": "/portfolio-app/static/media/localGym.50472ee2f62701036a3d.png",
     "static/media/miniCart.png": "/portfolio-app/static/media/miniCart.f1d58bc61559487db82f.png",
     "static/media/todoapp.png": "/portfolio-app/static/media/todoapp.ca82e053d78f988a5a31.png",
-    "static/media/Profile.png": "/portfolio-app/static/media/Profile.e92790d807d5208b9245.png",
+    "static/media/Profile.png": "/portfolio-app/static/media/Profile.aa242e58e5c31d279c8c.png",
     "static/media/google.png": "/portfolio-app/static/media/google.951cf676c1cff2e206fa.png",
     "static/media/netflix.png": "/portfolio-app/static/media/netflix.37c501e6a72d689238ac.png",
     "static/media/clock.png": "/portfolio-app/static/media/clock.cd1f9744ec51322bcb63.png",
@@ -17,12 +17,12 @@
     "static/media/c.png": "/portfolio-app/static/media/c.03589f45a07032f0be45.png",
     "static/media/react.png": "/portfolio-app/static/media/react.a735267992861f02c8f2.png",
     "index.html": "/portfolio-app/index.html",
-    "main.141ca629.css.map": "/portfolio-app/static/css/main.141ca629.css.map",
-    "main.0151a9ef.js.map": "/portfolio-app/static/js/main.0151a9ef.js.map",
+    "main.4112529a.css.map": "/portfolio-app/static/css/main.4112529a.css.map",
+    "main.fab40354.js.map": "/portfolio-app/static/js/main.fab40354.js.map",
     "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.141ca629.css",
-    "static/js/main.0151a9ef.js"
+    "static/css/main.4112529a.css",
+    "static/js/main.fab40354.js"
   ]
 }
