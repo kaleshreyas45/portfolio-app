@@ -7,11 +7,17 @@ const Navigation = () => {
     const [close, setClose] = useState(false)
 
     const showMobileMenu = () => {
-        setMobileMenu(true)
+        setMobileMenu(true);
+        document.body.style.height = "100vh"; 
+        document.body.style.overflow = "hidden";
+        setClose(false);
     }
-    const closeMobileMenu = function(){
-        setMobileMenu(false)
+    const closeMobileMenu = function () {
+        setTimeout(() => {
+            setMobileMenu(false)
+        }, 500);
         setClose(true)
+        document.body.style.overflowY = "scroll";
     }
     const hideID = function (id) {
         setMobileMenu(false)
@@ -30,16 +36,16 @@ const Navigation = () => {
 
     return (
         <>
-            {mobileMenu ? <div className="mobile-menu open">
-                <div className="close-mobile-menu x" onClick={closeMobileMenu}>X</div>
+            {mobileMenu && <div class="overlay"><div className={close ? "mobile-menu close": "mobile-menu open"}>
+                <div className="close-mobile-menu x" onClick={closeMobileMenu} aria-hidden="true">&times;</div>
                 <div className="mobile-links">
-                    <a onClick={()=>{hideID("section-1")}}>Home</a>
-                    <a onClick={()=>{hideID("section-2")}}>About</a>
-                    <a onClick={()=>{hideID("section-3")}}>Projects</a>
-                    <a onClick={()=>{hideID("section-4")}}>Skills</a>
-                    <a onClick={()=>{hideID("section-5")}}>Contact</a>
+                    <a onClick={() => { hideID("section-1") }}>Home</a>
+                    <a onClick={() => { hideID("section-2") }}>About</a>
+                    <a onClick={() => { hideID("section-3") }}>Projects</a>
+                    <a onClick={() => { hideID("section-4") }}>Skills</a>
+                    <a onClick={() => { hideID("section-5") }}>Contact</a>
                 </div>
-            </div> : close ? <div className="mobile-menu close"></div> : ""}
+            </div></div>}
             <div className="container-fluid top-bar d-flex">
                 <div className="container d-flex align-items-center">
                     <div className="mail-phone d-flex align-items-center">
@@ -61,11 +67,11 @@ const Navigation = () => {
                     <h1 className="brand my-1">Shreyas</h1>
                     <div className="navLinks">
 
-                        <a onClick={()=>{hideDesktopID("section-1")}}>Home</a>
-                        <a onClick={()=>{hideDesktopID("section-2")}}>About</a>
-                        <a onClick={()=>{hideDesktopID("section-3")}}>Projects</a>
-                        <a onClick={()=>{hideDesktopID("section-4")}}>Skills</a>
-                        <a onClick={()=>{hideDesktopID("section-5")}}>Contact</a>
+                        <a onClick={() => { hideDesktopID("section-1") }}>Home</a>
+                        <a onClick={() => { hideDesktopID("section-2") }}>About</a>
+                        <a onClick={() => { hideDesktopID("section-3") }}>Projects</a>
+                        <a onClick={() => { hideDesktopID("section-4") }}>Skills</a>
+                        <a onClick={() => { hideDesktopID("section-5") }}>Contact</a>
 
                     </div>
                     <div className="hamburger" onClick={showMobileMenu}>

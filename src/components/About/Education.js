@@ -1,6 +1,6 @@
 import React from 'react'
 import Common from './Common'
-import './Education.css'
+
 const Education = () => {
     const education = [{
         year:'2018-22',

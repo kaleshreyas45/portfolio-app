@@ -14,7 +14,7 @@ const Popup = (props) => {
         return (
             <div className="backdrop">
                 <div className="popup">
-                    <div className="x" onClick={closePopup}>X</div>
+                    <div className="x" onClick={closePopup} aria-hidden="true">&times;</div>
                     <div className="d-flex" style={{ 'position': 'relative' }}>
                         {props.education ? <><h4 style={{ 'position': 'absolute' }}>Education <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon></h4>
                             <div className="d-flex" style={{ 'marginTop': '3rem' }}>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Common from './Common'
-import './Experience.css'
+
 
 const Experience = () => {
     const experience = [{
