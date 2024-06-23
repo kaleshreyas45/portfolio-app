@@ -52,24 +52,6 @@ const Header = () => {
                                 )
                             })}
 
-                            {/* <div className="logo css" >
-                                <img src={css} className="logo-img"></img>
-                            </div>
-                            <div className="logo bootstrap" >
-                                <img src={bootstrap} className="logo-img"></img>
-                            </div>
-                            <div className="logo js">
-                                <img src={js} className="logo-img"></img>
-                            </div>
-                            <div className="logo react" >
-                                <img src={react} className="logo-img"></img>
-                            </div>
-                            <div className="logo mongo" >
-                                <img src={mongo} className="logo-img"></img>
-                            </div>
-                            <div className="logo node" >
-                                <img src={node} className="logo-img"></img>
-                            </div> */}
                         </div>
                     </div>
                 </div>

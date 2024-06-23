@@ -1,5 +1,5 @@
 .skills{
-    background: linear-gradient(to right, #4b6cb7, #182848);
+    /* background: linear-gradient(to right, #adc6ff, #bea5f4); */
     position: relative;
     padding-bottom: 1rem;
 }
@@ -20,7 +20,7 @@
 }
 
 .custom-shape-divider-top-1674190480 .shape-fill {
-    fill: #d5def1;
+    fill: white;
 }
 .skills-section{
     display: flex;
@@ -30,7 +30,6 @@
     margin-top: 3rem;
 }
 .skills-section h1{
-    color: white;
     position: relative;
     top:1rem;
 }
@@ -50,7 +49,6 @@
     justify-content: center;
 }
 .skill-info p{
-    color: white;
     font-family: 'Unbounded', cursive;
 }
 .common-shape{
@@ -58,7 +56,7 @@
     height: 100px;
     border-radius: 15%;
     background-color: white;
-    box-shadow: 5px 5px 5px 0px rgb(41, 41, 41);
+    box-shadow: 5px 5px 5px 0px rgb(173, 173, 173);
     margin: 1rem;
     display: flex;
     align-items: center;

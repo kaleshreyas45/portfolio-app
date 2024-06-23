@@ -16,263 +16,374 @@
 }
 
 .custom-shape-divider-bottom-1673671527 .shape-fill {
-    fill: #d5def1;
+    fill: white;
 }
-.header-section{
+
+.header-section {
     width: 100%;
     height: 700px;
-    background: linear-gradient(to right, #4b6cb7, #182848);
+    /* background: linear-gradient(to right, #adc6ff, #bea5f4); */
     position: relative;
 }
-.header{
+
+.header {
     position: relative;
-    top:14rem;    
+    top: 14rem;
 }
-.header-row{
-    justify-content:center;
+
+.header-row {
+    justify-content: center;
 }
-.my-info{
-    color: white;
-}
-.my-info h1{
+
+.my-info h1 {
     text-transform: capitalize;
 }
-.letter-span{
+
+.letter-span {
     font-family: 'Unbounded', cursive;
     font-size: 3rem;
     position: relative;
     transform: scale(0.5);
-    top:-0.1rem;
+    top: -0.1rem;
     animation-name: grow;
     animation-duration: 0.8s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.letter-span:nth-child(1){
+
+.letter-span:nth-child(1) {
     animation-delay: 0.1s;
 }
-.letter-span:nth-child(2){
+
+.letter-span:nth-child(2) {
     animation-delay: 0.2s;
 }
-.letter-span:nth-child(3){
+
+.letter-span:nth-child(3) {
     animation-delay: 0.3s;
 }
-.letter-span:nth-child(4){
+
+.letter-span:nth-child(4) {
     animation-delay: 0.4s;
 }
-.letter-span:nth-child(5){
+
+.letter-span:nth-child(5) {
     animation-delay: 0.5s;
 }
-.letter-span:nth-child(6){
+
+.letter-span:nth-child(6) {
     animation-delay: 0.6s;
 }
-.letter-span:nth-child(7){
+
+.letter-span:nth-child(7) {
     animation-delay: 0.7s;
 }
-@keyframes grow{
-    0%{
+
+@keyframes grow {
+    0% {
         transform: scale(0);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
-.logo{
+
+.logo {
     position: absolute;
     background-color: rgb(255, 255, 255);
-    width:60px;
+    width: 60px;
     height: 60px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 5px 5px 5px 0px rgb(41, 41, 41);
+    box-shadow: 5px 5px 5px 1px rgb(173, 173, 173);
 }
-.logo-img{
-    width:40px;
+
+.logo-img {
+    width: 40px;
     height: 40px;
 }
-.html{
-    left:-3rem;
-    top:3rem;
+
+.html {
+    left: -3rem;
+    top: 3rem;
 }
-.css{
-    left:-1rem;
-    top:-1rem;
+
+.css {
+    left: -1rem;
+    top: -1rem;
 }
-.bootstrap{
-    left:3rem;
-    top:-4rem;
+
+.bootstrap {
+    left: 3rem;
+    top: -4rem;
 }
-.js{
-    left:8rem;
-    top:-4.5rem;
+
+.js {
+    left: 8rem;
+    top: -4.5rem;
 }
-.react{
-    left:13rem;
-    top:-3rem;
+
+.react {
+    left: 13rem;
+    top: -3rem;
 }
-.mongo{
-    left:16rem;
-    top:1rem;
+
+.mongo {
+    left: 16rem;
+    top: 1rem;
 }
-.node{
-    left:18rem;
-    top:5rem;
+
+.node {
+    left: 18rem;
+    top: 5rem;
 }
-.header-col p{
+
+.header-col p {
     position: relative;
-    top:1rem;
+    top: 1rem;
     font-family: 'Condiment', cursive;
     font-size: 1.5rem;
 }
-.header-col h4{
+
+.header-col h4 {
     font-weight: 200;
     font-size: 1.2rem;
 }
-.profile-image{
-    width:300px;
+
+.profile-image {
+    width: 300px;
     height: 300px;
     position: relative;
 }
-.common-button{
-    width:200px;
+
+.common-button {
+    width: 200px;
     height: 46px;
     margin-top: 1rem;
-    background-color: #000000;
-    color:white;
-    border-radius: 30px;
-    border:none;
-    /* transition-property: all;
-    transition-duration: 0.5s; */
+    background-color: transparent;
+    color: white;
+    border: none;
+    transition-property: all;
+    transition-duration: 1s;
     overflow: hidden;
     position: relative;
 }
 
-.common-button-light{
-    width:200px;
+.common-button::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: -14%;
+    left: -17px;
+    width: 120%;
+    height: 100%;
+    transform: rotate(-13deg);
+    transform-origin: top right;
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+.common-button::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 100%;
+    transform: rotate(-13deg);
+    transform-origin: bottom left;
+    transition: all 0.5s;
+    z-index: -1;
+}
+.common-button:hover{
+    color:black;
+    border: 1px solid black;
+}
+.common-button:hover::before {
+    transform: translate(-100%, -100%) rotate(-19deg);
+}
+
+.common-button:hover::after {
+    transform: translate(100%, 100%) rotate(-19deg);
+}
+
+.common-button-light {
+    width: 200px;
     height: 46px;
     margin-top: 1rem;
     background-color: transparent;
-    color:black;
-    border-radius: 30px;
-    border:2px solid black;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
 }
-@media(max-width:1200px){
-    .header-col h1{
+.common-button-light::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: black;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    width: 100%;
+    height:0%;
+    z-index: -1;          
+    transition: all 0.5s;
+}
+.common-button-light:hover{
+    color: white;
+}
+.common-button-light:hover::before{
+    height: 200%;   
+}
+
+@media(max-width:1200px) {
+    .header-col h1 {
         font-weight: 800;
         font-size: 2rem;
     }
-    .letter-span{
+
+    .letter-span {
         font-weight: 800;
         font-size: 2rem;
     }
 }
-@media(max-width:992px){
-    .header-section{
+
+@media(max-width:992px) {
+    .header-section {
         height: 600px;
     }
-    .header-row{
-        justify-content:space-around;
+
+    .header-row {
+        justify-content: space-around;
     }
-    .header-col h4{
+
+    .header-col h4 {
         font-size: 1rem;
     }
-    .profile-image{
+
+    .profile-image {
         width: 260px;
         height: 260px;
     }
-    .react{
-        left:12rem;
-        top:-2rem;
+
+    .react {
+        left: 12rem;
+        top: -2rem;
     }
-    .mongo{
-        left:14.5rem;
-        top:1.5rem;
+
+    .mongo {
+        left: 14.5rem;
+        top: 1.5rem;
     }
-    .node{
-        left:15.9rem;
-        top:5.5rem;
+
+    .node {
+        left: 15.9rem;
+        top: 5.5rem;
     }
 }
-@media(max-width:767px){
-    .header-section{
+
+@media(max-width:767px) {
+    .header-section {
         height: 820px;
     }
-    .header-row{
+
+    .header-row {
         flex-direction: column-reverse;
     }
-    .my-info{
+
+    .my-info {
         text-align: center;
     }
-    .header-col h1{
+
+    .header-col h1 {
         font-weight: 800;
         font-size: 3rem;
     }
-    .letter-span{
+
+    .letter-span {
         font-weight: 800;
         font-size: 3rem;
     }
 }
-@media(max-width:576px){
-    .header-section{
+
+@media(max-width:576px) {
+    .header-section {
         height: 800px;
     }
-    .header-col h1{
+
+    .header-col h1 {
         font-weight: 500;
         font-size: 1.9rem;
     }
-    .letter-span{
+
+    .letter-span {
         font-weight: 500;
         font-size: 1.9rem;
     }
-    .header-col h4{
+
+    .header-col h4 {
         font-size: 1rem;
     }
-    .my-info{
+
+    .my-info {
         padding: 1rem;
     }
 }
-@media(max-width:380px){
-    .logo{
+
+@media(max-width:380px) {
+    .logo {
         width: 50px;
         height: 50px;
     }
-    .logo-img{
-        width:30px;
+
+    .logo-img {
+        width: 30px;
         height: 30px;
     }
-    .html{
-        left:-2rem;
-        top:2rem;
+
+    .html {
+        left: -2rem;
+        top: 2rem;
     }
-    .css{
-        left:0rem;
-        top:-1rem;
+
+    .css {
+        left: 0rem;
+        top: -1rem;
     }
-    .bootstrap{
-        left:3rem;
-        top:-3rem;
+
+    .bootstrap {
+        left: 3rem;
+        top: -3rem;
     }
-    .js{
-        left:6.5rem;
-        top:-4rem;
+
+    .js {
+        left: 6.5rem;
+        top: -4rem;
     }
-    .react{
-        left:10rem;
-        top:-3rem;
+
+    .react {
+        left: 10rem;
+        top: -3rem;
     }
-    .mongo{
-        left:13rem;
-        top:-1rem;
+
+    .mongo {
+        left: 13rem;
+        top: -1rem;
     }
-    .node{
-        left:15rem;
-        top:2rem;
+
+    .node {
+        left: 15rem;
+        top: 2rem;
     }
 }
-@media(max-width:360px){
-    .header-col h1{
+
+@media(max-width:360px) {
+    .header-col h1 {
         font-weight: 500;
         font-size: 1.3rem;
     }
