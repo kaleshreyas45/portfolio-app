@@ -17,7 +17,7 @@ h1{
   background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: #4b6cb7;
+  background-color: black;
 }
 
 @media(max-width:576px){
