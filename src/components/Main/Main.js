@@ -5,13 +5,11 @@ import About from '../About/About'
 import Project from '../Projects/Project'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
-import SocialIcons from '../Social-Icons/SocialIcons'
 import Footer from '../Footer/Footer'
 
 const Main = () => {
     return (
         <>
-            <SocialIcons></SocialIcons>
             <Navigation></Navigation>
             <Header></Header>
             <About></About>

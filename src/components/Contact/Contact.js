@@ -33,7 +33,7 @@ const Contact = () => {
                     return (
 
                         <a href={icon.link} target="_blank" style={{'textDecoration':'none','color':'#212529'}}>
-                            <div className="common-shape" style={{ 'borderRadius': '50%', 'boxShadow': 'none' }}>
+                            <div className="common-shape forContact" style={{ 'borderRadius': '50%', 'boxShadow': 'none' }}>
                                 <FontAwesomeIcon icon={icon.title} className="icon"></FontAwesomeIcon>
                             </div>
                         </a>
