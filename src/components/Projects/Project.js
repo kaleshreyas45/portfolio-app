@@ -29,7 +29,7 @@ const Project = () => {
     return (
         <div className="container-fluid project-section" id='section-3'>
             <div className="container">
-                <h1 className="text-center">Projects</h1>
+                <h1 className="text-center">Basics</h1>
                 <div className="d-flex tab-list justify-content-center">
                     <div className="d-flex my-3 tab-list-container justify-content-between">
                         <div className={react ? "active-project" : ""} onClick={()=>{toggleProject("react")}}>React+Bootstrap</div>

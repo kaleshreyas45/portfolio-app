@@ -22,15 +22,7 @@ const Header = () => {
                         <div className="my-info">
                             <p>Hi, 👋</p>
                             <div className="d-flex align-items-center">
-                                <h1>I am</h1>
-                                &nbsp;&nbsp;
-                                <span className="letter-span">S</span>
-                                <span className="letter-span">h</span>
-                                <span className="letter-span">r</span>
-                                <span className="letter-span">e</span>
-                                <span className="letter-span">y</span>
-                                <span className="letter-span">a</span>
-                                <span className="letter-span">s</span>
+                                <h1>I am <span class="shreyas">Shreyas.</span></h1>
                             </div>
                             
 
