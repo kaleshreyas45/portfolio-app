@@ -8,12 +8,6 @@ import clock from '../../../assets/clock.png'
 const Js = () => {
     const JsProjects = [
         {
-            title: "Profile Card",
-            content: "This is my profile card. I applied typing effects with js and some cool animation effects with css. Please watch this on desktop only to have better experience!",
-            image: profileCard,
-            url:"https://short-profile-card.netlify.app/"
-        },
-        {
             title: "Distance Converter",
             content: "This is basic Distance Converter project which will give you exact distance in different units.The purpose of this project is to practice input event in javascript!",
             image: distanceConverter,
