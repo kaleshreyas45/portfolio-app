@@ -27,7 +27,7 @@ const Header = () => {
                             
 
                             <h1>Web Developer</h1>
-                            <h4>Specialist Programmer @Infosys</h4>
+                            <h4>Software Engineer</h4>
                             <button className="common-button" onClick={()=>{redirectToContact("section-5")}}>Contact Me</button>
                         </div>
 
