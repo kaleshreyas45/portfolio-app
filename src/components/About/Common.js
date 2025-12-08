@@ -19,7 +19,7 @@ const Common = (props) => {
                     {props.experience ? props.experience.map((listItem, i) => {
                         return (
                             <>
-                                <List key={i} year={listItem.year} company={listItem.company} role={listItem.role} skills={listItem.skills} color='white'></List>
+                                <List key={i} year={listItem.year} client={listItem.client} role={listItem.role} skills={listItem.skills} color='white'></List>
                                 <div className="divider"></div>
                             </>
 

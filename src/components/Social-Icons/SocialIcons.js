@@ -18,7 +18,7 @@ const SocialIcons = () => {
                     <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                 </div>
             </a>
-            <a href="mailto:kaleshreyas45@gmail.com?subject=General Query&body=Hi Shreyas,%0D%0AHope you are doing well%0D%0AMy doubt : <Mention your doubt here>" target="_blank">
+            <a href="mailto:shreyas9320@gmail.com?subject=General Query&body=Hi Shreyas,%0D%0AHope you are doing well%0D%0AMy doubt : <Mention your doubt here>" target="_blank">
                 <div className="icon-shape d-flex justify-content-center align-items-center">
                     <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                 </div>

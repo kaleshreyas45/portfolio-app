@@ -53,7 +53,7 @@ const Navigation = () => {
                     <div className="mail-phone d-flex align-items-center">
                         <FontAwesomeIcon icon={faEnvelope} className="common-icon"></FontAwesomeIcon>
                         &nbsp;&nbsp;
-                        <div>kaleshreyas45@gmail.com</div>
+                        <div>shreyas9320@gmail.com</div>
                         &nbsp;&nbsp;
                         <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
                         &nbsp;&nbsp;

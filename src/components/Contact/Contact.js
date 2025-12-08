@@ -8,10 +8,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './Contact.css'
 
 const Contact = () => {
-    const contactData = [{
-        title: faLinkedin,
-        link:"https://www.linkedin.com/in/shreyas-kale-6a6732175/"
-    },
+    const contactData = [
     {
         title: faGithub,
         link:"https://github.com/kaleshreyas45"
@@ -22,7 +19,7 @@ const Contact = () => {
     },
     {
         title: faEnvelope,
-        link:"mailto:kaleshreyas45@gmail.com?subject=General Query&body=Hi Shreyas,%0D%0AHope you are doing well%0D%0AMy doubt : <Mention your doubt here>"
+        link:"mailto:shreyas9320@gmail.com?subject=General Query&body=Hi Shreyas,%0D%0AHope you are doing well%0D%0AMy doubt : <Mention your doubt here>"
     }]
 
     return (
